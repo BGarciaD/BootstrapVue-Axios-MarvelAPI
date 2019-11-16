@@ -8,15 +8,11 @@
 <script>
 import MainNavigation from '@/components/MainNavigation.vue'
 import MainViewHeader from '@/components/MainViewHeader.vue'
-import { config } from '../config.js'
 export default {
   name: 'app',
   components: {
     MainNavigation,
     MainViewHeader
-  },
-  mounted: function () {
-    console.log(config)
   }
 }
 </script>

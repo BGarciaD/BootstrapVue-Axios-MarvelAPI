@@ -3,7 +3,7 @@
     <b-row class="logoMenu">
       <b-col></b-col>
       <b-col sm="2" class="logoMenu_leftContainer">{{msg}}</b-col>
-      <b-col sm="6"><b-link to="/"><b-img src="../assets/marvel_comics_logo.png" fluid alt="Responsive image" /></b-link></b-col>
+      <b-col sm="6"><b-link to="/"><b-img src="../assets/marvel_comics_logo2.png" fluid alt="Responsive image" /></b-link></b-col>
       <b-col sm="2" class="logoMenu_marvelMastecard">{{msg}}</b-col>
       <b-col class="logoMenu_Search">{{msg}}</b-col>
       <b-col ></b-col>
