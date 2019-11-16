@@ -1,16 +1,29 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <main-navigation></main-navigation>
+    <main-view-header></main-view-header>
     <router-view/>
   </div>
 </template>
-
+<script>
+import MainNavigation from '@/components/MainNavigation.vue'
+import MainViewHeader from '@/components/MainViewHeader.vue'
+import { config } from '../config.js'
+export default {
+  name: 'app',
+  components: {
+    MainNavigation,
+    MainViewHeader
+  },
+  mounted: function () {
+    console.log(config)
+  }
+}
+</script>
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+  font-weight: 600;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

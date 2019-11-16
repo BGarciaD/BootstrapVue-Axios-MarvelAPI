@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h5>Home</h5>
+  <div class="stories">
+     <h5>Stories</h5>
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -11,12 +11,13 @@
 import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
-  name: 'home',
+  name: 'stories',
   components: {
     HelloWorld
   }
 }
 </script>
+
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
